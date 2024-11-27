@@ -1,0 +1,262 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+
+}
+
+
+.contaier .row{
+  padding: 50px;
+}
+
+
+header{
+  position: fixed;
+  width: 100%;
+
+
+
+}
+header {
+  background-color: rgb(241, 239, 239);
+  box-shadow:0 25px 25px rgba(1 1 1 / 15%);
+  position: fixed;
+  height: 70px;
+  z-index: 1;
+
+
+  
+  
+}
+header nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  padding-top: 10px;
+  
+
+}
+
+header nav span{
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+header nav .navs a{
+  padding: 5px;
+  text-decoration: none;
+}
+
+/*=============================================================*/
+/*=======================<< main >>============================*/
+/*=============================================================*/
+#main {
+  background-image: linear-gradient(45deg, #009EC5 0%, #2e7eed 20%, #02225B 50%);
+  height: auto;
+  padding: 150px;
+ 
+ 
+}
+
+#main .row h1{
+  padding-top: 80px ;
+  color: white;
+  font-weight: bold;
+  font-size: 2.5em;
+}
+#main .row p{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+
+
+}
+#main .row .btn{
+  padding: 15px 50px;
+}
+
+#section1{
+  height: 70vh;
+
+}
+#section1 p{
+  color: gray;
+}
+
+
+
+
+/*=============================================================*/
+/*====================<< section1 >>============================*/
+/*=============================================================*/
+#section1 .container .row{
+  background-color: rgb(253, 253, 253);
+  box-shadow:0 25px 25px rgba(1 1 1 / 15%);
+  justify-content: center;
+  margin: auto;
+  height: auto;
+  align-items: center;
+  position: relative;
+  bottom: 140px;
+  padding: 60px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+
+}
+
+
+
+
+#section1 .container {
+  display: flex;
+  margin: auto;
+  width: 70%;
+  height: 50vh;
+}
+
+
+
+/*=============================================================*/
+/*====================<< section3 >>============================*/
+/*=============================================================*/
+#section3 .container .row{
+  align-items: center;
+}
+
+#section3 p{
+  color: gray;
+}
+
+
+
+
+
+/*=============================================================*/
+/*====================<< section4 >>============================*/
+/*=============================================================*/
+
+#section4 .container-fluid{
+  background-color: #fafafa;
+  height: auto;
+  padding: 40px;
+  
+}
+
+#section4 .container-fluid h1{
+  padding-top: 50px;
+}
+
+#section4 .container-fluid p{
+  padding-bottom: 30px;
+  color: gray;
+}
+#section4 .container-fluid .row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+/*=============================================================*/
+/*====================<< section5 >>============================*/
+/*=============================================================*/
+#section5{
+  
+  display: flex;
+  text-align: center;
+  align-items: center;
+ 
+}
+#section5 h1{
+  padding-top: 150px;
+}
+#section5 .container-fluid{
+  height: 70vh;
+  background-image: url(/images/background/promo-video-back.jpg);
+  background-attachment: fixed;
+  color: wheat;
+  justify-content: center;
+  padding-top: 100px;
+  align-items: center;
+  
+  
+}
+#section5 .container-fluid p{
+  color: white;
+}
+#section5 a i{
+  height: 125px;
+  width: 125px;
+  /* background: #2e7eed; */
+  display: inline-block;
+  font-size: 110px;
+  color: #fff;
+  text-align: center;
+  line-height: 125px;
+  border-radius: 100%;
+}
+
+/*=============================================================*/
+/*====================<< section6 >>============================*/
+/*=============================================================*/
+
+#section6{
+  height: 55vh;
+  background-color: #2e7eed;
+  color: white;
+  text-align: center;
+  align-items: center;
+  display: flex;
+
+}
+#section6 p{
+  padding-bottom: 20px;
+}
+#section6 .btn{
+ 
+  color: white;
+
+}
+#section6 span{
+  font-size: 30px;
+  border: 1px solid white;
+  border-radius: 30px;
+
+
+
+}
+
+
+#section6 h1{
+  padding-top: 60px;
+}
+
+
+
+
+
+
+
+/*=============================================================*/
+/*=========================<< footer >>========================*/
+/*=============================================================*/
+
+footer{
+  height: 40vh;
+  background-color: #1a1b1f;
+  display: flex;
+  align-items: end;
+  padding-bottom: 20px;
+  
+}
+footer p{
+  color: white;
+  font-size: 20px;
+}
